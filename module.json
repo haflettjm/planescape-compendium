@@ -1,0 +1,56 @@
+{
+    "name": "planescape-compendium",
+    "title": "Planescape Universe",
+    "description": "A collection of planescape content for FoundryVTT",
+    "version": "0.0.1",
+    "author": "Jacob Haflett",
+    "minimumCoreVersion": "0.7.5",
+    "compatibleCoreVersion": "1.12.0",
+    "packs": [
+        {
+            "name": "shared-creatures",
+            "label": "Shared Creatures",
+            "path": "./packs/creatures.db",
+            "entity": "Actor"
+        },
+        {
+            "name": "shared-items",
+            "label": "Shared Items",
+            "path": "./packs/items.db",
+            "entity": "Item"
+        },
+        {
+            "name": "shared-scenes",
+            "label": "Shared Scenes",
+            "path": "./packs/scenes.db",
+            "entity": "Scene"
+        },
+        {
+            "name": "shared-journal-entries",
+            "label": "Shared Journal Entries",
+            "path": "./packs/journal-entries.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "shared-macros",
+            "label": "Shared Macros",
+            "path": "./packs/macros.db",
+            "entity": "Macro"
+        },
+        {
+            "name": "shared-roll-tables",
+            "label": "Shared Roll Tables",
+            "path": "./packs/roll-tables.db",
+            "entity": "RollTable"
+        },
+        {
+            "name": "shared-playlists",
+            "label": "Shared Playlists",
+            "path": "./packs/playlists.db",
+            "entity": "Playlist"
+        }
+    ],
+    "url":"https://github.com/haflettjm/planescape-compendium",
+    "manifest": "https://github.com/haflettjm/planescape-compendium/release/module.json",
+    "download": "https://github.com/haflettjm/planescape-compendium/releases/download/my-shared-content.zip"
+  }
